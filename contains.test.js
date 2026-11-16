@@ -1,4 +1,4 @@
-const contains = require('../contains');
+const contains = require('./contains');
 
 describe("contains", () => {
   const meaningOfLifeArray = [42];
