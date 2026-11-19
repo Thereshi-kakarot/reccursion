@@ -1,7 +1,7 @@
-const pascals = function pascals(n){
+const pascal = function pascals(n){
     if(n === 1) return [1];
 
-    const prev = pascals(n - 1);
+    const prev = pascal(n - 1);
     const row = [1];
 
     for (let i = 1; i < prev.length; i++){
@@ -11,4 +11,4 @@ const pascals = function pascals(n){
     return row;
 }
 
-module.exports = pascals;
+module.exports = pascal;
